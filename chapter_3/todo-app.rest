@@ -15,5 +15,6 @@ POST http://localhost:5003/auth/login
 Content-Type: application/json
 
 {
-
+    "username":"sagar@gmail.com",
+    "password":"sagar"
 }
