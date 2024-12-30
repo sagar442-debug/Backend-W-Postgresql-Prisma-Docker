@@ -1,0 +1,19 @@
+### GET / 
+GET http://localhost:5003
+
+### Register a user POST 
+POST http://localhost:5003/auth/register/
+Content-Type: application/json
+
+{
+    "username":"sagar@gmail.com",
+    "password":"sagar"
+}
+
+### Login a user to 
+POST http://localhost:5003/auth/login
+Content-Type: application/json
+
+{
+
+}
