@@ -185,9 +185,10 @@
     }
 
     async function authenticate() {
-      // access email and pass values
+      console.log("Clicked");
       const emailVal = email.value;
       const passVal = password.value;
+      console.log(emailVal, passVal);
 
       // guard clauses... if authenticating, return
       if (
